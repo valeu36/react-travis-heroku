@@ -9,6 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.2",
+    "serve": "^11.3.2",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -16,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
-    "setup": "npm ci"
+    "start": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
